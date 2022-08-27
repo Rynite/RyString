@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/rynite/Downloads/RyString'
+gcc -g   -c -o src/ry_string.o src/ry_string.c
+gcc -g   -c -o src/tests.o src/tests.c
+gcc src/ry_string.o src/tests.o -o bin/tests  -Iinclude/  -Iusr/include/ -g
+make: Leaving directory '/home/rynite/Downloads/RyString'
+ 
